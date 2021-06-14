@@ -85,3 +85,12 @@ Residual of the fitted distribution and the fitted model are show above
 
 ![Histogram](/images/Picture15.png)
 
+
+
+
+
+
+
+
+## [Study on the Handgrip centiles with R]()
+
