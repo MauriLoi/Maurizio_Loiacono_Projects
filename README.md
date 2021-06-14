@@ -1,5 +1,5 @@
 
-##[Body Mass Index BMI fitting Distribution with R](https://github.com/MauriLoi/Body-Mass-Index-BMI-fitting-Distribution-with-R)
+## [Body Mass Index BMI fitting Distribution with R](https://github.com/MauriLoi/Body-Mass-Index-BMI-fitting-Distribution-with-R)
 
 The data used for the study are taken from a marketing campaign dataset based on a case of a retailer company in computer accessories. The data set contains 1500 customer records. Each record consists of 19 variables, which includes socio-demographic and product ownership information. 
 The work is developed following the below index, starting from the Data Understanding , untill the development of a logistic regression Model.
