@@ -66,7 +66,7 @@ Given the result of the GAIC test we can assume that the best distributions to f
 ![Histogram](/images/Picture10.png) &emsp;&emsp; ![Histogram](/images/Picture11.png)
 
 Figure 6 Plotted pdf(BMI) fitted with the exGauss distribution
-![Histogram](/images/Picture11.png)
+
 
 
 
