@@ -22,9 +22,6 @@ Fitting a distribution is the process of finding a mathematical function that re
 
 ![Figure 1 Frequency histogram of the variable BMI](/images/Picture1.png) 
 
-![Figure 2 Cullen and Frey graph](images/Picture2.png)
-
-
 
 The skewness and kurtosis could really help in the identification of the best fit for our distribution. Remanding the fact that when the value of the skewness is zero the distribution is a normal, perfectly symmetric around his mean, if we find a positive or negative skewness is the evidence of a non-symmetric distribution.
 The kurtosis value quantifies the weight of tails in comparison to the normal distribution for which the kurtosis equals 3.
