@@ -1,4 +1,3 @@
-# Maurizio Loiacono Projects
 
 # Body-Mass-Index-BMI-fitting-Distribution-with-R
 
