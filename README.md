@@ -46,6 +46,6 @@ Given the result of the GAIC test we can assume that the best distributions to f
 
 The exGaus distribution is fitting well the distribution of our data dealing with the skewness and the kurtosis. The fitted parameters of the distribution are shown in the next paragraph. 
 
-###  1.4  Output the Parameters
+###  1.4 Output the Parameters
 
 The outcomes of the linear model fitted with the exGAUS distribution are shown above in figure 8. The univariate function is expressed as y = ß0 +  ß1 (age), where ß0  is the intercept of value 11.2145 and ß1 = 0.4365. The sigma and the nu coefficients are expressing the value of the fitted sigma and the nu fitted value. The sigma coefficient of our fitted model, 0.25567 is the ln of the fitted variance 1.29132 of the distribution . The same as for the nu given the log link function. The AIC has value 1727.725 that alone doesn’t have a specific mining  but just when compared with the other model as said above.
