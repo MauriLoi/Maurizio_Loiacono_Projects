@@ -22,7 +22,7 @@ Fitting a distribution is the process of finding a mathematical function that re
 
 ![](/images/Picture1.png)
 
-![Figure 1 Histogram of the frequencies distibutiono of the variable BMI]
+![](Figure 1 Histogram of the frequencies distibutiono of the variable BMI)
 
 
 
