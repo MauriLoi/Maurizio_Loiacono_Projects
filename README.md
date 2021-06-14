@@ -56,7 +56,7 @@ The GAIC(k) is a better estimator for the comparison of the models. The GAIC it 
 GAIC(k)= GD +(k * df);
 Testing the distribution under the AIC that use k=2 and SBC that use k=log(n) and different values of k can help. The sensitivity of the selected model to the choice of k can be also tested. Testing the models build on the distributions selected we have this result for k=2 (AIC) k=~6(SBC,log(n=403) and k=2.5,3,3.5,4.
 
-![Histogram](/images/Picture7.png) &emsp;&emsp; ![Histogram](/images/Picture8.png)  
+![Histogram](/images/Picture7.png) &emsp; ![Histogram](/images/Picture8.png)  
 ![Histogram](/images/Picture9.png)
 
 Figure 5 GAIC(k) result: k=2, k=6, k=3, k=3. 5, k=4 
