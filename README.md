@@ -63,6 +63,11 @@ Figure 5 GAIC(k) result: k=2, k=6, k=3, k=3. 5, k=4
 
 Given the result of the GAIC test we can assume that the best distributions to fit our data and build the model on it is the exGAUS and or the BCPE. As the penalization in respect to the number of parameters of the model is larger k=2,3,3.5,4,6 the best model is changing. For small number of k the BCPE is chosen for larger number of k ExGAUSS is selected. Following the criteria of the GAIC i will select the exGAUS. The plotted fitted distribution and the simple linear model of the exGAUS are shown in figure 6 and 7.
 
+![Histogram](/images/Picture10.png) &emsp;&emsp; ![Histogram](/images/Picture11.png)
+
+Figure 6 Plotted pdf(BMI) fitted with the exGauss distribution
+![Histogram](/images/Picture11.png)
+
 
 
 The exGaus distribution is fitting well the distribution of our data dealing with the skewness and the kurtosis. The fitted parameters of the distribution are shown in the next paragraph. 
