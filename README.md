@@ -42,6 +42,13 @@ If we take a look on the Cullen and Frey plot, some of the distributions are rep
 The next step is to identify the possible ‘candidate’ distributions to be fitted and tested. Given the nature of the distribution of our data we can restrict the field to few functions able to model the skewness and the kurtosis. The Box- Cox Cole-Green family ,GA(gamma) the gamma distribution is appropriate for positively skew data, IG(inverse Gaussian) the inverse Gaussian distribution is appropriate for highly positive skew data, SEP1(Skew power exp, t1, parametrization of PE, TF(T family distribution) the t family distribution, is symmetric but able to model leptokurtosis), PE(Power exponential, the power exponential distribution is suitable for leptokurtic and platykurtic data.
 Using the histDist() funtion that fits constants to the parameters of a GAMLSS family distribution and them plot the histogram and the fitted distribution[1]. I will compare all the fitted distributions graphically and with the gamlss() function that returns an object of class "gamlss" I will create a set of linear model for each of the distributions and compare the GD. The results of the histDist() are shown above.
 
+![Histogram](/images/Picture4.png) 
+![Histogram](/images/Picture5.png)  
+![Histogram](/images/Picture6.png)
+
+Figure 4  histdist() for all the distribution: NO, GA, IG, SEP1, TF, exGAUS
+
+
 ###  1.3 Distribution choice
 
 After running all the gamlss objects and comparing the global deviance and the histDist() graphs results we have already an idea of the best distribution to fit. The fitted BCPE and exGauss are performing better in terms of Global Deviance . The GD of the BCPE is from the summary() function 1721.73 and the one for the exGAUS is 1723.54. The global deviance is not a good indicator for the comparison of those models given the not nested nature of them.
