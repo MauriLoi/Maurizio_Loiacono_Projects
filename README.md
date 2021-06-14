@@ -30,7 +30,7 @@ Figure 2 Cullen and Frey graph)
 
 ![](/images/Picture3.png)
 
-Figure 3 Shows the pdf() of the BM  $∼∼∼∼∼∼∼∼∼∼∼$         Figure 4 Shows the cdf() of the BMI
+Figure 3 Shows the pdf() of the BM  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp        Figure 4 Shows the cdf() of the BMI
 
 
 The skewness and kurtosis could really help in the identification of the best fit for our distribution. Remanding the fact that when the value of the skewness is zero the distribution is a normal, perfectly symmetric around his mean, if we find a positive or negative skewness is the evidence of a non-symmetric distribution.
