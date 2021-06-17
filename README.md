@@ -94,4 +94,4 @@ The exercise requires analyzing a sample extracted from the study of handgrip fr
 
 ![](/Handgrip%20Pictures/Figure%201%20.png)
 
-![](https://github.com/MauriLoi/Maurizio_Loiacono_Projects/blob/main/Handgrip%20Pictures/Figure%202%20Z_LMS%20tranformation.png)
+![](Handgrip%20Pictures/Figure%202%20Z_LMS%20tranformation.png)
