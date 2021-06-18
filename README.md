@@ -98,3 +98,4 @@ The exercise requires analyzing a sample extracted from the study of handgrip fr
 
 
 
+
