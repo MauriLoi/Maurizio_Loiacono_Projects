@@ -97,7 +97,8 @@ Figure 1 Empirical Density and Comulative DIstributions
 
 Figure 2 Not powered, Power 2 and power 1.49 Age.
 
-
+Subsequent to the release of the 1977 NCHS growth charts, Cole developed a comprehensive method of smoothing for growth curves, known as the LMS method, that allowed for the development of smoothed curves and efficient calculation of z scores simultaneously.
+The LMS method is based on the use of Box-Cox transformations to normality through the calculation of a skewness parameter. The LMS parameters are the power in the Box-Cox transformation (L), the median (M), and the generalized coefficient of variation (S). Given these parameters and the assumption that the residuals follow a normal distribution, any desired percentile can be calculated. The method of maximum penalized likelihood generates values of L, M, and S parameters that are smoothed over age or any selected variables. These parameters are then used to construct the desired percentiles[3].
 
 
 
