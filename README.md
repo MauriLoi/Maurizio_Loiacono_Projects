@@ -94,7 +94,12 @@ The exercise requires analyzing a sample extracted from the study of handgrip fr
 
 ![](/LMS_Pictures/Picture1.png)
 
+Figure 1 Empirical Density and Comulative DIstributions
+
 ![](/LMS_Pictures/Picture2.png) 
+
+Figure 2 Not powered, Power 2 and power 1.49 Age.
+
 
 
 
