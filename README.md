@@ -5,7 +5,7 @@ The data used for the study are taken from a marketing campaign dataset based on
 The work is developed following the below index, starting from the Data Understanding , untill the development of a logistic regression Model.
 
 
-1. Body Mass Index (BMI) Data set*
+1. Body Mass Index (BMI) Data set
 
    1.1  *Introductionto to the Body Mass Index (BMI) data set* 
     
