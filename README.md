@@ -92,11 +92,12 @@ Residual of the fitted distribution and the fitted model are show above
 
 The exercise requires analyzing a sample extracted from the study of handgrip from Cohen et al (2010) concerning gender and age. From 3766 observation is extracted a new sample of 1000 observation from the English boys. The sample observation is reported in figure 1. The usual assumptions for data analysis are the standard assumptions of the linear model, i.e. the existence of additive effects, the constancy of variance, the normality of the variables and the independence of observations. If these assumptions are not satisfied, two alternatives are possible: either to devise a new analysis that meets these assumptions or to transform the data to meet these assumptions. It is almost always easier to use a satisfactory transformation than to develop a new method of analysis. The power transformation, for the x variables, is usually needed when the response variable has an early or late spell of fast growth. In those cases, the transformation of age can stretch the time scale making the smooth curve fitting easier[2]. We do not need to power the age because the growth of the grip is almost constant during all the different ages. We don't have any exponential or strong irregular growth of the grip in the different years. The relationship between age and handgrip is already almost perfectly linear. The plots of the empirical density, cumulative distributionsnot and the transformed age, the power 2 transformation and the 1.499942 power using the trans.x =True argument in the LMS function are plotted above. Not relevant changes are present in the distribution of the points, this confirms our hypothesis.
 
-![](/LMS_Pictures/Picture1.png){:height="50%" width="50%"}
+![](/LMS_Pictures/Picture1.png)
+<img src="/LMS_Pictures/Picture1.png" width="100" height="100">
 
 Figure 1 Empirical Density and Comulative DIstributions
 
-![](/LMS_Pictures/Picture2.png){:height="50%" width="50%"} 
+![](/LMS_Pictures/Picture2.png)
 
 Figure 2 Not powered, Power 2 and power 1.49 Age.
 
