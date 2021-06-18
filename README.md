@@ -101,5 +101,18 @@ The LMS method is based on the use of Box-Cox transformations to normality throu
 
 ![](/LMS_Pictures/Picture3.png)
 
+Figure 3 
 
+LMS allows constructing smoothing reference percentile curves, which fit cubic spline curves to the Box-Cox transformation. This transformation leads to the normalization of the variance and thus defines standard intervals for significant expression differences.[4]
+Reference percentile curves show the distribution of measurement as it changes according to some covariate, often age. Using penalized likelihood the three curves can be fitted as cubic splines by non‐linear regression, and the extent of smoothing required can be expressed in terms of smoothing parameters or equivalent degrees of freedom.
+In gamlss, the original LMS method (which models for skewness but not for kurtosis in the data), is extended by introducing the Box-Cox power exponential (BCPE) and the Box-Cox t (BCT) distributions and called the resulting methods LMSP and LMST respectively.
+The LMS method can be fitted within the gamlss() by assuming that the response variable has a Box-Cox Cole and Green distribution (BCCG). The BCCG distribution is suitable for positively or negatively skewed data with Y > 0. Given the distribution of our data plotted in figure 11 I will use the BCCG, BCPE and BCT implemented in the glass package to create models and built the centiles curves. I will run the LMS method in gamlass separately for each distribution and then compare them.
+
+![](/LMS_Pictures/Picture4.png)
+
+Figure 4.The BCCG distribution plotted on the grip distribution.
+
+The BCPE assumes that the transformed random variable Z has a (truncated) exponential power distribution, while BCT assumes that Z has a (truncated) t distribution. [5]. In the centile estimation of the Y on a specific variable in our case age the gamlss package build models based on the three distribution seen above where Y ~ D(median, approximate coefficient of variation, skewness and kurtosis) are the parameter of the distributions. The parameters of the distributions are associated with the appropriate link function securing the parameters are within their appropriate domain. The fitted parameters are calculated using the non-parametric smoothers defined from the smoothing parameter lambda or the degree of freedom. The smothers used are the P splines that is an intermediate solution between regression and smoothing splines. with somewhat more knots than you would use if you were doing regression splines (but not as many as one per observation), and then introduce a roughness penalty as you do with smoothing splines. The result of the BCCG, BCPE and BCT models are shown in the figure.
+
+![](/LMS_Pictures/Picture5.png)
 
