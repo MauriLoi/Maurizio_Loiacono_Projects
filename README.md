@@ -94,5 +94,7 @@ The exercise requires analyzing a sample extracted from the study of handgrip fr
 
 ![](/LMS_Pictures/Picture1.png)
 
+![](/LMS_Pictures/Empirical%20Density%20and%20Cumulative%20Distribution.png)
+
 
 
