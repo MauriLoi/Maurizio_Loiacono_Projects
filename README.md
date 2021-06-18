@@ -91,7 +91,7 @@ The exercise requires analyzing a sample extracted from the study of handgrip fr
 
 <img src="https:\\github.com\MauriLoi\Maurizio_Loiacono_Projects\blob\main\LMS_Pictures\Picture1.png" width="500" height="300"/>
  
-<!--![](/LMS_Pictures/Picture1.png)&emsp;![](/LMS_Pictures/Picture2.png)-->
+![](/LMS_Pictures/Picture1.png)&emsp;![](/LMS_Pictures/Picture2.png){:height="50%" width="50%"}
 
 
 
